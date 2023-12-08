@@ -1,10 +1,10 @@
-package Abstraction;
+package com.loosecoupling;
 
-abstract class Bike {
+public class Bike implements Test {
 
-	abstract void run();
+	public void prize() {
+		System.out.println("He got bike prize");
+
+	}
+
 }
-
-	
-
-
